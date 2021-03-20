@@ -1,5 +1,5 @@
 var bigFirefly = bodymovin.loadAnimation({
-  container: document.getElementById('big-firefly'), // Required
+  container: document.getElementById('board-firefly'), // Required
   path: 'firefly.json', // Required
   renderer: 'svg', // Required
   loop: true, // Optional

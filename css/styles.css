@@ -322,7 +322,7 @@ html {
     justify-content: center;
     display: block;
     text-align: center;
-    margin-bottom: 25%;
+    margin-bottom: 50%;
     position: relative;
 }
 .schedule-board{
@@ -333,35 +333,36 @@ html {
     z-index: 3;
 }
 
-#big-firefly{
+#board-firefly{
     position: relative;
     transform: scaleX(-1);
-    top: -24vw;
-    left: 63vw;
-    width: 30vw;
-    height: 40vw;
+    top: -1.7vw;
+    left: 77vw;
+    width: 5vw;
+    height: 5vw;
     z-index: 4;
 }
 
 .fireflies{
     position: relative;
     margin-top: 5%;
+    height: 3vw;
 }
 
 #firefly1{
     position: absolute;
-    top: -15vw;
-    left: 0vw;
-    width: 18vw;
+    top: 17vw;
+    left: 2vw;
+    width: 3vw;
 }
 @media only screen and (max-width: 670px) {
     #firefly1 {
       display: none; } }
 #firefly2{
     position: absolute;
-    top: -17vw;
-    left: 14vw;
-    width: 18vw;
+    top: -10vw;
+    left: 9vw;
+    width: 3vw;
 }
 @media only screen and (max-width: 670px) {
     #firefly2 {
@@ -371,9 +372,9 @@ html {
       width: 18vw; } }
 #firefly3{
     position: absolute;
-    top: -15vw;
+    top: -5vw;
     left: 28vw;
-    width: 18vw;
+    width: 3vw;
 }
 @media only screen and (max-width: 670px) {
     #firefly3 {
@@ -385,8 +386,8 @@ html {
     position: absolute;
     transform: scaleX(-1);
     top: -15vw;
-    left: 54vw;
-    width: 18vw;
+    left: 66vw;
+    width: 3vw;
 }
 @media only screen and (max-width: 670px) {
     #firefly4 {
@@ -397,9 +398,9 @@ html {
 #firefly5{
     position: absolute;
     transform: scaleX(-1);
-    top: -17vw;
-    left: 67vw;
-    width: 18vw;
+    top: -5vw;
+    left: 87vw;
+    width: 3vw;
 }
 @media only screen and (max-width: 670px) {
     #firefly5 {
@@ -410,9 +411,9 @@ html {
 #firefly6{
     position: absolute;
     transform: scaleX(-1);
-    top: -15vw;
-    left: 80vw;
-    width: 18vw;
+    top: 20vw;
+    left: 90vw;
+    width: 3vw;
 }
 @media only screen and (max-width: 670px) {
     #firefly6 {
