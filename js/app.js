@@ -210,8 +210,8 @@ function ripple(e){
         this.list[i].velocity[1] += centeredVelocity[1] / 200000 + avoidanceVelocity[1] * 10 + nearByInfluence[1] / 2 - focusVelocity[1] / 75000;
         
         // In case you want them to move in a circle
-        //this.list[i].velocity[0] += circularVeloctiy[0]/400;
-        //this.list[i].velocity[1] += circularVeloctiy[1]/400;
+        this.list[i].velocity[0] += circularVeloctiy[0]/4000;
+        this.list[i].velocity[1] += circularVeloctiy[1]/4000;
         
         // Limit max speed
         if (vectorMagnitude2D(this.list[i].velocity) > this.list[i].maxSpeed) {
@@ -278,13 +278,6 @@ class Fishie {
     this.obj = new paper.Path();
     this.obj.strokeColor = "black";
     this.obj.fillColor = "black";
-
-    // this.obj.add(new paper.Point(0, 5));
-    // this.obj.add(new paper.Point(0, -5));
-    // this.obj.add(new paper.Point(8, 8));
-    // this.obj.add(new paper.Point(15, 0));
-    // this.obj.add(new paper.Point(8, -8));
-    // this.obj.add(new paper.Point(0, 5));
 
     this.obj.add(new paper.Point(0, 4));
     this.obj.add(new paper.Point(0, -4));
