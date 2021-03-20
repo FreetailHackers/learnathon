@@ -1,6 +1,6 @@
 var bigFirefly = bodymovin.loadAnimation({
   container: document.getElementById('board-firefly'), // Required
-  path: 'firefly.json', // Required
+  path: 'assets/firefly.json', // Required
   renderer: 'svg', // Required
   loop: true, // Optional
   autoplay: true, // Optional
@@ -9,7 +9,7 @@ var bigFirefly = bodymovin.loadAnimation({
 
 var firefly1 = bodymovin.loadAnimation({
   container: document.getElementById('firefly1'), // Required
-  path: 'firefly.json', // Required
+  path: 'assets/firefly.json', // Required
   renderer: 'svg', // Required
   loop: true, // Optional
   autoplay: false, // Optional
@@ -17,7 +17,7 @@ var firefly1 = bodymovin.loadAnimation({
 })
 var firefly2 = bodymovin.loadAnimation({
   container: document.getElementById('firefly2'), // Required
-  path: 'firefly.json', // Required
+  path: 'assets/firefly.json', // Required
   renderer: 'svg', // Required
   loop: true, // Optional
   autoplay: false, // Optional
@@ -25,7 +25,7 @@ var firefly2 = bodymovin.loadAnimation({
 })
 var firefly3 = bodymovin.loadAnimation({
   container: document.getElementById('firefly3'), // Required
-  path: 'firefly.json', // Required
+  path: 'assets/firefly.json', // Required
   renderer: 'svg', // Required
   loop: true, // Optional
   autoplay: false, // Optional
@@ -33,7 +33,7 @@ var firefly3 = bodymovin.loadAnimation({
 })
 var firefly4 = bodymovin.loadAnimation({
   container: document.getElementById('firefly4'), // Required
-  path: 'firefly.json', // Required
+  path: 'assets/firefly.json', // Required
   renderer: 'svg', // Required
   loop: true, // Optional
   autoplay: false, // Optional
@@ -41,7 +41,7 @@ var firefly4 = bodymovin.loadAnimation({
 })
 var firefly5 = bodymovin.loadAnimation({
   container: document.getElementById('firefly5'), // Required
-  path: 'firefly.json', // Required
+  path: 'assets/firefly.json', // Required
   renderer: 'svg', // Required
   loop: true, // Optional
   autoplay: false, // Optional
@@ -49,7 +49,7 @@ var firefly5 = bodymovin.loadAnimation({
 })
 var firefly6 = bodymovin.loadAnimation({
   container: document.getElementById('firefly6'), // Required
-  path: 'firefly.json', // Required
+  path: 'assets/firefly.json', // Required
   renderer: 'svg', // Required
   loop: true, // Optional
   autoplay: false, // Optional
