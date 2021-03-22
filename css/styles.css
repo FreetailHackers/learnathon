@@ -111,7 +111,7 @@ html {
     height: 9.2vw;
     top: 28%;
     left: 35%;
-    z-index: 4;
+    z-index: 5;
 }
 @media only screen and (max-width: 670px) {
     .button-register {
@@ -133,7 +133,7 @@ html {
     height: 12.4vw;
     top: 42%;
     left: 22%;
-    z-index: 4;
+    z-index: 5;
 }
 @media only screen and (max-width: 670px) {
     .button-mentor {
@@ -155,7 +155,7 @@ html {
     height: 7.3vw;
     top: 60%;
     left: 36%;
-    z-index: 4;
+    z-index: 5;
 }
 @media only screen and (max-width: 670px) {
     .button-workshop {
@@ -289,6 +289,10 @@ html {
       width: 100%;
       margin: auto;
       margin-bottom: 10%;} }
+
+.links{
+    color: #91FFAE;
+}
 
 .parent-center {
     display: flex;
