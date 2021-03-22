@@ -437,11 +437,14 @@ html {
 .footer{
     position: relative;
     text-align: center;
+    align-items: center;
     font-size: 1.2vw;
     color:white; 
     font-family:Montserrat;
-    top: 60vw;
+    top: 55vw;
+    margin-bottom: 5%;
 }
 @media only screen and (max-width: 670px) {
     .footer {
+      font-size: 1.8vw;
       top: 240vw; } }
