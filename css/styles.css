@@ -181,6 +181,7 @@ html {
         width: 60vw;
         bottom: -5%;
         z-index: 4;
+        left: 45%;
       } }
 
 .what-slide{
@@ -249,7 +250,6 @@ html {
     margin-right: 7%;
     max-width: 40%;
     justify-content: center;
-    align-items: center;
     display: inline;
     line-height: 1.25;
     margin-bottom: 10%;
