@@ -285,7 +285,6 @@ html {
 @media only screen and (max-width: 670px) {
     .normal-text {
       font-size: 2.5vw;
-      text-align: center;
       width: 100%;
       margin: auto;
       margin-bottom: 10%;} }
