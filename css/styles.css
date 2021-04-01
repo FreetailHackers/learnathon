@@ -326,7 +326,7 @@ html {
 	color: #fffaf1;
 	margin: 20px auto;
 	text-align: center;
-	font-family: Mullish
+	font-family: Montserrat
 }
 
 #schedule .pill-button .pill-button-option {
@@ -369,7 +369,7 @@ html {
 	color: #fffaf1;
 	margin: 4vw auto;
 	text-align: center;
-	font-family: Mullish;
+	font-family: Montserrat;
 	font-size: 2vw
 }
 
@@ -403,7 +403,7 @@ html {
 #schedule .schedule-container .schedule-grid .schedule-label,
 #schedule .schedule-container .schedule-grid .schedule-time,
 #schedule .schedule-container .schedule-grid .blurb {
-	padding: 2px;
+	padding: 10px;
     font-size: 1.4vw;
 }
 
