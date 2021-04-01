@@ -1,12 +1,3 @@
-var bigFirefly = bodymovin.loadAnimation({
-  container: document.getElementById('board-firefly'), // Required
-  path: 'assets/firefly.json', // Required
-  renderer: 'svg', // Required
-  loop: true, // Optional
-  autoplay: true, // Optional
-  name: "Firefly", // Name for future reference. Optional.
-})
-
 var firefly1 = bodymovin.loadAnimation({
   container: document.getElementById('firefly1'), // Required
   path: 'assets/firefly.json', // Required
@@ -55,6 +46,28 @@ var firefly6 = bodymovin.loadAnimation({
   autoplay: false, // Optional
   name: "Firefly", // Name for future reference. Optional.
 })
+
+let learnathonButton = document.getElementById("learnathon-button");
+let hackathonButton = document.getElementById("hackathon-button");
+
+let learnathonSchedule = document.getElementById("learnathon-schedule");
+let hackathonSchedule = document.getElementById("hackathon-schedule");
+hackathonSchedule.style.display = "none";
+
+learnathonButton.onclick = function() {
+    learnathonSchedule.style.display = "grid";
+    hackathonSchedule.style.display = "none";
+    learnathonButton.classList.add("active");
+    hackathonButton.classList.remove("active");
+}
+
+hackathonButton.onclick = function() {
+    learnathonSchedule.style.display = "none";
+    hackathonSchedule.style.display = "grid";
+    learnathonButton.classList.remove("active");
+    hackathonButton.classList.add("active");
+}
+
 
 canvas = document.getElementById('pond-canvas');
 

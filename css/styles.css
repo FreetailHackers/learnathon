@@ -235,7 +235,7 @@ html {
   justify-content: center;
   display: inline;
   line-height: 1.25;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 @media only screen and (max-width: 670px) {
     .left-column {
@@ -252,7 +252,7 @@ html {
     justify-content: center;
     display: inline;
     line-height: 1.25;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
   @media only screen and (max-width: 670px) {
     .right-column {
@@ -321,30 +321,95 @@ html {
     width: 70%;
 }
 
-.schedule-slide{
-    width: 100%;
-    justify-content: center;
-    display: block;
-    text-align: center;
-    margin-bottom: 65%;
-    position: relative;
-}
-.schedule-board{
-    width: 70%;
-    justify-content: center;
-    position: absolute;
-    left: 15%;
-    z-index: 3;
+
+#schedule .pill-button {
+	color: #fffaf1;
+	margin: 20px auto;
+	text-align: center;
+	font-family: Mullish
 }
 
-#board-firefly{
-    position: relative;
-    transform: scaleX(-1);
-    top: -1.7vw;
-    left: 77vw;
-    width: 5vw;
-    height: 5vw;
-    z-index: 4;
+#schedule .pill-button .pill-button-option {
+	background-color: #1a3059;
+	opacity: .9;
+	display: inline-block;
+	font-size: 2vw;
+	padding: 5px 15px;
+	cursor: pointer;
+	-webkit-transition: .25s ease-in-out;
+	-o-transition: .25s ease-in-out;
+	transition: .25s ease-in-out
+}
+
+@media (max-width:576px) {
+	#schedule .pill-button .pill-button-option {
+		font-size: 4vw
+	}
+}
+
+#schedule .pill-button .pill-button-option.active,
+#schedule .pill-button .pill-button-option:hover {
+	background-color: #499163;
+	opacity: 1
+}
+
+#schedule .pill-button #learnathon-button {
+	padding-left: 20px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px
+}
+
+#schedule .pill-button #hackathon-button {
+	padding-right: 20px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px
+}
+
+#schedule .schedule-container {
+	color: #fffaf1;
+	margin: 4vw auto;
+	text-align: center;
+	font-family: Mullish;
+	font-size: 2vw
+}
+
+@media (max-width:576px) {
+	#schedule .schedule-container {
+		font-size: 3vw
+	}
+}
+
+#schedule .schedule-container .schedule-grid {
+	width: 60%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 3fr 5fr 7fr;
+	text-align: left
+}
+
+@media (max-width:576px) {
+	#schedule .schedule-container .schedule-grid {
+		width: 80%
+	}
+}
+
+#schedule .schedule-container .schedule-grid .schedule-header {
+	color: #499163;
+	border-bottom: 2px solid #499163;
+	margin-bottom: 1.4vw;
+	padding: .5vw 1vw
+}
+
+#schedule .schedule-container .schedule-grid .schedule-label,
+#schedule .schedule-container .schedule-grid .schedule-time,
+#schedule .schedule-container .schedule-grid .blurb {
+	padding: 2px;
+    font-size: 1.4vw;
+}
+
+
+#schedule .schedule-container .schedule-grid .schedule-day-label {
+	max-height: 0
 }
 
 .freetail-bats{
