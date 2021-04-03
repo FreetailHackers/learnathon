@@ -283,6 +283,15 @@ html {
     width: 100%;
 }
 
+.normal-text-subtitle {
+    font-family: Montserrat;
+    color: #fff;
+    margin-bottom: 0%;
+    line-height: 1.5;
+    font-size: 1.35vw;
+    width: 100%;
+}
+
 @media only screen and (max-width: 670px) {
     .normal-text {
       font-size: 2.5vw;
